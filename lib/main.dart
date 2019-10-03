@@ -129,8 +129,7 @@ class HomeExample extends StatelessWidget {
       // Column 위젯을 사용하면 수직으로 여러 위젯을 배치할 수 있음.
       body: Column(
         children: <Widget>[
-          Image.network(
-              "https://themakoreactor.com/wp-content/uploads/2019/06/ys-9-monstrum-nox-ps4-falcom.png"),
+          Image.asset('images/og.jpg'),
           titleSection,
           buttonSection,
           textSection
